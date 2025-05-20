@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="86dp"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="40dp"
+		        android:layout_toRightOf="@+id/linearLayout1" >
+		        
+			<TextView
+		        android:id="@+id/txtValor"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/linearLayout1"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="14dp"
+		        android:text="Valor" />
+			
+			 <EditText
+		        android:id="@+id/edtValor"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignTop="@+id/linearLayout1"
+		        android:layout_toRightOf="@+id/linearLayout1"
+		        android:ems="10"
+		        android:inputType="number" >
+		        <requestFocus />
+		    </EditText>
+			
+		</LinearLayout>
+        
+		<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="40dp"
+		        android:layout_toRightOf="@+id/linearLayout1" >
+		        
+			<TextView
+		        android:id="@+id/txtOrigen"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/linearLayout1"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="14dp"
+		        android:text="Origen" />
+			
+			<Spinner
+		        android:id="@+id/spinOrigen"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true" />
+		</LinearLayout>
+    
+		<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="40dp"
+		        android:layout_toRightOf="@+id/linearLayout1" >
+		        
+			<TextView
+		        android:id="@+id/txtDestino"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/linearLayout1"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="14dp"
+		        android:text="Destino" />
+			
+			<Spinner
+		        android:id="@+id/spinDestino"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true" />
+		</LinearLayout>
+		<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="40dp"
+		        android:layout_toRightOf="@+id/linearLayout1" >
+		        
+		    <Button
+		        android:id="@+id/btnConvertir"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentBottom="true"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginBottom="57dp"
+		        android:text="Convertir" />
+			
+		</LinearLayout>
+     </LinearLayout>
+
+</RelativeLayout>
