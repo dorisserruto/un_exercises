@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="panel right">
+        <h1>Create a Twitty</h1>
+        <p>
+            <form action="/submit" method="post">
+            {% for field in twitty_form %}{% csrf_token %}
+            {{ field }}
+            {% endfor %}
+            <input type="hidden" value="{{ next_url }}" name="next_url">
+            <input type="submit" value="Twitty!">
+            </form>
+        </p>
+    </div>
+    <div class="panel left">
+        <h1>Public Twittys</h1>
+        {% for twitty in twittys %}
+        <div class="twittyWrapper">
+            <img class="avatar" src="{{ twitty.user.profile.avatar_url }}" height="50px" width="50px">
+            <span class="name">{{ twitty.user.first_name }}</span>@{{ twitty.user.username }}
+            <span class="time">{{ twitty.creation_date|timesince }}</span>
+            <p>{{ twitty.content }}</p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
