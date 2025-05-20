@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<br>
+    Hello World!! {{name}}
+</br>
+    {% for p in posts %}
+        <h2><a href="{{p.pk}}">{{p.name|upper}}</a></h2>
+        <p>
+            {{p.content|truncatechars:50}}
+        </p>
+    {% endfor %}
+</body>
+</html>
