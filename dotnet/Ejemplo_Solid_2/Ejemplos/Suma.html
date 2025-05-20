@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+// <![CDATA[
+
+        function Submit1_onclick() {
+            var text1 = document.getElementById('Text1');
+            var text2 = document.getElementById('Text2');
+
+            alert(parseInt(text1.value) + parseInt(text2.value));
+        }
+
+// ]]>
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h1>
+            Suma
+        </h1>
+        Ingrese Operandos:
+        <input id="Text1" type="text" />
+        +
+        <input id="Text2" type="text" />
+        <hr />
+        <input id="Submit1" type="submit" value="submit" onclick="return Submit1_onclick()" />
+        <h4>
+            Resultado:</h4>
+        <div id="divResultado" runat="server">Alert</div>
+    </div>
+    </form>
+</body>
+</html>

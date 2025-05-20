@@ -1,0 +1,13 @@
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.DibujarFormas.resources
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.Properties.Resources.resources
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\bin\Debug\SOLID.exe
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\bin\Debug\SOLID.pdb
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.exe
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.pdb
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.OCP.PlantillaCuadrado.resources
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.OCP.PlantillaCirculo.resources
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.OCP.PlantillaTriangulo.resources
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\SOLID\SOLID\obj\x86\Debug\SOLID.DemoSRP.resources

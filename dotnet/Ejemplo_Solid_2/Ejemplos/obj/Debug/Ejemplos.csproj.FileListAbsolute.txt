@@ -1,0 +1,5 @@
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\Ejemplos\Ejemplos\bin\Ejemplos.dll
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\Ejemplos\Ejemplos\bin\Ejemplos.pdb
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\Ejemplos\Ejemplos\obj\Debug\ResolveAssemblyReference.cache
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.dll
+d:\datos de usuarios\s33686\my documents\visual studio 2010\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.pdb
