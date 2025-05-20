@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Lab12_myActivity!</string>
+     <string name="iniciar">Iniciar Servicio!</string>
+      <string name="detener">Detener Servicio!</string>
+    <string name="app_name">Lab12_service</string>
+
+</resources>

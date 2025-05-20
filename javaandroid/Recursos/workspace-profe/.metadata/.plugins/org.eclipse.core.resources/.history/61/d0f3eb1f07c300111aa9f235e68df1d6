@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Lab14_widgetsActivity!</string>
+    <string name="app_name">Lab14_widgets</string>
+    
+    <string-array>
+        <item>Arequipa</item>
+		<item>Lima</item>        
+		<item>Tacna</item>
+    </string-array>
+
+</resources>

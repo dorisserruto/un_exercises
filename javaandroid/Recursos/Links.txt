@@ -1,0 +1,7 @@
+//LABE27/AndroidFolder
+
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+http://developer.android.com/sdk/index.html
+http://www.eclipse.org/downloads
+ADT Plugin - https://dl-ssl.google.com/android/eclipse/

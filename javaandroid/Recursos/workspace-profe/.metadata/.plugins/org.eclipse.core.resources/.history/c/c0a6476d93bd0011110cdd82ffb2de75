@@ -1,0 +1,14 @@
+package com.nhaqp.lab11;
+
+public class Calculadora {
+
+	double resultado;
+	
+	
+	//Constructor
+	Calculadora(double p) {
+
+	}
+	
+	
+}

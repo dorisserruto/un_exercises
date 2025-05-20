@@ -1,0 +1,53 @@
+package com.nhaqp.player1;
+
+import android.app.Activity;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class Lab13_player1Activity extends Activity implements OnClickListener {
+
+	Button btnI, btnF;
+	MediaPlayer player;
+	
+	/** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    
+        btnI = (Button) this.findViewById(R.id.btnStart);
+        btnF = (Button) this.findViewById(R.id.btnFinalizar);
+    
+        btnI.setOnClickListener(this);
+        btnF.setOnClickListener(this);
+        
+        player = MediaPlayer.create(this, R.raw.song);
+        player.setLooping(false);
+    }
+
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+		switch(v.getId()){
+		
+		case R.id.btnStart:
+			Toast.makeText(this, "Reproductor iniciado", Toast.LENGTH_LONG).show();
+			Log.d("Lab13", "onclick para iniciar!");
+			player.start();
+			break;
+			
+		case R.id.btnFinalizar:
+			Toast.makeText(this, "Reproductor finalizado", Toast.LENGTH_LONG).show();
+			Log.d("Lab13", "onclick para finalizar!");
+			player.stop();
+			break;
+		
+		}
+		
+	}
+}
