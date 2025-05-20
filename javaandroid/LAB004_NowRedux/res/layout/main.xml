@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/btnNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redux" 
+        android:onClick="someMethod"/>
+
+<!-- wrap content:se ajusta el tamaño segun su contenido -->
+<!-- fill parent: ocupa todo el ancho de la pantalla -->
+<!-- @+id para hacer referencia al archivo de recursos: convencion -->
+
+    <Button
+        android:id="@+id/btnDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton 2" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtTwitterSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnSend" >
+        
+        <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTwitterSend"
+        android:layout_marginTop="28dp"
+        android:onClick="onTweet"
+        android:text="Tweet" />
+    
+    <Button
+        android:id="@+id/btnFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTwitterSend"
+        android:layout_marginTop="28dp"
+        android:onClick="onTweet"
+        android:textSize="12dp"
+        android:text="Favoritos" />
+    
+    <Button
+        android:id="@+id/btnSeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTwitterSend"
+        android:layout_marginTop="28dp"
+        android:onClick="onTweet"
+        android:textSize="12dp"
+        android:text="Seguidores" />
+    
+    <Button
+        android:id="@+id/btnFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTwitterSend"
+        android:layout_marginTop="28dp"
+        android:onClick="clickButtonAmigos"
+        android:textSize="12dp"
+        android:text="Amigos" />
+    </LinearLayout>
+
+</RelativeLayout>

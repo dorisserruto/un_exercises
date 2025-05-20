@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Tic Tac Toe</string>
+    <string name="app_name">LAB005_TicTacToe</string>
+
+</resources>
